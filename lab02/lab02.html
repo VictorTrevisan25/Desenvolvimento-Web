@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE PALMEIRAS</title>
+</head>
+<body bgcolor="#00ff00">
+    <h1>SE PALMEIRAS</h1>
+    <img src="https://s1.static.brasilescola.uol.com.br/be/2023/12/logotipo-do-palmeiras.png" width="300" height="auto">
+    <h2>esse é um site informativo sobre o time de fubol PALMEIRAS</h2>
+
+    <p><h3>antes de começarmos faremos um breve forumolario para torcedores</h3></p>
+    <h6>por favor responda as perguntas para que possamos avaliar alguns dados</h6>
+    <form>
+        <label for="nome">Seu nome</label>
+        <input style="display: block;" type="nome" placeholder="coloque seu nome"><br>
+        <h5>escolha entre um desses jogadores</h5>
+        <select>
+            <option>rony</option>
+            <option>gustavo gomes</option>
+            <option>flaco lopes</option>
+            <option>raphael veiga</option>
+        </select>
+        <p><h6>deixe um comentario sobre o que vc acha do elenco atual:</h6></p>
+        <textarea rows="10" placeholder="escreva aqui:"></textarea>
+        <input type="submit">
+    </form>
+    <h2>atual elenco do palmeiras</h2>
+    <ol>
+        <li>weverton</li>
+        <li>gustavo gomes</li>
+        <li>murilo</li>
+        <li>piqueres</li>
+        <li>mayke</li>
+        <li>anibal moreno</li>
+        <li>felipe anderson</li>
+        <li>raphael veiga</li>
+        <li>richar rios</li>
+        <li>rony</li>
+        <li>dudu</li>
+        <li>flaco lopes</li>
+    </ol>
+    <h2>aqui uma lista com os principais titulos do palmeiras</h2>
+    <ul>
+        <li>3 Libertadores</li>
+        <li>4 copas do brasil</li>
+        <li>12 campeonato brasileiro</li> 
+    </ul>
+
+    <h1>Hino do maior</h1>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DiKvx0gRfaQ?si=i8Eylwcw6RekuUC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <h2>retangulo no grafico canvas</h2>
+
+    <canvas id="myCanvas" width="300" height="200" style="border:1px solid black;"></canvas>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = 'green';
+        ctx.fillRect(50, 50, 200, 100);
+    </script>
+
+    <h3>exemplo cirdulo em svg</h3>
+
+    <svg width="200" height="200" style="border:1px solid black;">
+        <circle cx="100" cy="100" r="50" fill="green" />
+    </svg>
+    
+
+</body>
+</html>
